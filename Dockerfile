@@ -108,3 +108,9 @@ RUN comfy-node-install \
     https://github.com/city96/ComfyUI-GGUF \
     https://github.com/ClownsharkBatwing/RES4LYF \
     https://github.com/giriss/comfy-image-saver
+
+# Stage 3: Final stage with models
+FROM downloader AS final
+
+# The final stage inherits everything from the downloader stage
+# This is where you can add any final configuration if needed
