@@ -162,9 +162,12 @@
       },
       "67": {
         "inputs": {
-          "UNKNOWN": "increment"
+          "increment": "increment"
         },
-        "_meta": {}
+        "class_type": "SeedIncrement",
+        "_meta": {
+          "title": "Seed Increment"
+        }
       },
       "68": {
         "inputs": {
@@ -229,15 +232,21 @@
       },
       "73": {
         "inputs": {
-          "UNKNOWN": "Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf"
+          "model_name": "Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf"
         },
-        "_meta": {}
+        "class_type": "GGUFModelLoader",
+        "_meta": {
+          "title": "Load GGUF Model"
+        }
       },
       "74": {
         "inputs": {
-          "UNKNOWN": "Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf"
+          "model_name": "Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf"
         },
-        "_meta": {}
+        "class_type": "GGUFModelLoader",
+        "_meta": {
+          "title": "Load GGUF Model"
+        }
       }
     }
   }
